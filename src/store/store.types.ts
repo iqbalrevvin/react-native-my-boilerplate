@@ -1,5 +1,5 @@
 export interface AuthState {
-    user: object;
+    user: any;
     token: string;
 }
 

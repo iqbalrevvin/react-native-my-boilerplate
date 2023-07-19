@@ -29,6 +29,7 @@ import {
 } from './Login.handler';
 // @utils
 import { images } from '../../utils';
+// @others
 import { useToastHide } from '../../hooks';
 import { setCredentials } from '../../store/auth';
 
@@ -114,7 +115,8 @@ const _handleSubmitLogin = (props: LoginProps, states: IStates) => async () => {
   console.log('check-selector', selector);
   try {
     const response = await loginMutation(watchedValue).unwrap();
-    dispatch(setCredentials(response));
+    const payloadCredential = { ...response, user: watchedValue };
+    dispatch(setCredentials(payloadCredential));
   } catch (error) {
     handleShowToastErrorLogin(props, states);
   } finally {

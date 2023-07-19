@@ -1,8 +1,9 @@
 import React from 'react';
-import LoginComponent from './Login.component';
 import { withTranslation } from 'react-i18next';
 import { Dispatch } from '@reduxjs/toolkit';
 import { useDispatch, useSelector } from 'react-redux';
+
+import LoginComponent from './Login.component';
 
 import { useMyMutation } from './Login.handler';
 import { IProps, MyMutations, MySelector } from './Login.types';

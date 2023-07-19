@@ -2,12 +2,13 @@ import { NavigatorScreenParams } from '@react-navigation/native';
 import { StackScreenProps } from '@react-navigation/stack';
 
 export type MainParamsList = {
-  Home: undefined;
-  Login: undefined;
+  Home: any;
+  Login: any;
+  Example: any;
 };
 
 export type ApplicationStackParamList = {
-  Startup: undefined;
+  Startup: any;
   Main: NavigatorScreenParams<MainParamsList>;
 };
 

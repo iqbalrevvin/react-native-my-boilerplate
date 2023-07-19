@@ -1,8 +1,11 @@
 
+import { ImageStyle, ViewStyle } from 'react-native';
 import { Dispatch } from '@reduxjs/toolkit';
+import { NavigationProp } from '@react-navigation/native';
+
 import { AuthState } from '../../store/store.types';
 import { UseFormReturn } from 'react-hook-form';
-import { ImageStyle, ViewStyle } from 'react-native';
+import { MainParamsList } from './../../../@types/navigation';
 
 export type SetContainerState =  React.Dispatch<React.SetStateAction<ContainerState>>;
 export type dispatch = Dispatch;
@@ -21,6 +24,7 @@ export interface MyMutations extends LoginMutation {}
 export interface IProps {
   t: any;
   i18n: any;
+  navigation: NavigationProp<MainParamsList>;
 }
 
 export interface MySelector {

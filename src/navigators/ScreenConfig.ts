@@ -1,4 +1,4 @@
-import { Example, Login, Startup } from '../screens';
+import { Example, Home, Login, Startup } from '../screens';
 
 const Screen = {
     STARTUP: {
@@ -8,6 +8,10 @@ const Screen = {
     LOGIN: {
         NAME: 'Login',
         COMPONENT: Login,
+    },
+    HOME: {
+        NAME: 'Home',
+        COMPONENT: Home,
     },
     EXAMPLE: {
         NAME: 'Home',

@@ -34,7 +34,7 @@ export const handleShowToastErrorLogin = (props: LoginProps, states: IStates) =>
       toastTitle: t('apps:login.login-error-title'),
       toastSubTitle: t('apps:login.login-error-message'),
     }));
-}
+};
 
 export const handleLodingScreen = (states: IStates, isLoading: boolean): void => {
     const { setLoginState } = states;

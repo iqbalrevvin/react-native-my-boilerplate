@@ -36,8 +36,16 @@ Assuming you have all the requirements installed, you can run the project by run
 - `yarn <platform>` to run the *platform* application (remember to start a simulator or connect a device)
 
     
+## Code Health
+
+In my future projects, I pay a lot of attention to code quality and code health, so I tighten up my coding a bit with linter rules and also use typescript.
+
+To check codehealth simply run the command below.
+
+`yarn code-health` This will run a linter check as well as a typescript to make sure there are no error codes.
+
+
+
 ## License
 
 This project is released under the [MIT License](LICENSE).
-
-

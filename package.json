@@ -13,7 +13,7 @@
     "pod-install": "cd ios && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install && cd ..",
     "cleanup:ios": "cd ios && rimraf build Podfile.lock Pods && pod deintegrate && pod install",
     "cleanup:android": "cd android && rimraf build app/build && ./gradlew clean && killall -9 Terminal",
-    "code-healt": "eslint . && tsc"
+    "code-health": "eslint . && tsc"
   },
   "dependencies": {
     "@react-native-masked-view/masked-view": "^0.2.9",
