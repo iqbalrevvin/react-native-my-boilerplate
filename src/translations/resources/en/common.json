@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "full": "My Boilerplate RN",
+    "initials": "MyBoilerplate"
+  },
+  "feature-not-available": "Feature Not Available",
+  "feature-not-available-desc": "Sorry, the feature is still not available",
+  "contact-your-admin": "Contact Your Administrator",
+  "contact-your-admin-desc": "Please contact your admin for this feature"
+}

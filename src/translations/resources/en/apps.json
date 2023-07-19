@@ -1,0 +1,13 @@
+{
+    "login": {
+        "title": "MY BOILERPLATE RN",
+        "subtitle": "Please login with your account",
+        "field-username": "Username / Email",
+        "field-password": "Password",
+        "forgot-password": "Forgot password?",
+        "register-account": "Don't have an account?",
+        "button-submit": "LOGIN ACCOUNT",
+        "login-error-title": "Login Failed",
+        "login-error-message": "Login failed, make sure the account entered is correct."
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "full": "My Boilerplate RN",
+    "initials": "MyBoilerplate"
+  },
+  "feature-not-available": "Fitur Belum Tersedia",
+  "feature-not-available-desc": "Sorry, the feature is still not available",
+  "contact-your-admin": "Hubungi Administrator",
+  "contact-your-admin-desc": "Mohon hubungi admin anda untuk fitur ini"
+}

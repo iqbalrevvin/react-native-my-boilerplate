@@ -1,0 +1,13 @@
+{
+    "login": {
+        "title": "MY BOILERPLATE RN",
+        "subtitle": "Silahkan masuk dengan akun terdaftar",
+        "field-username": "Nama Pengguna / Email",
+        "field-password": "Kata Sandi",
+        "forgot-password": "Lupa kata sandi?",
+        "register-account": "Belum punya akun?",
+        "button-submit": "MASUK AKUN",
+        "login-error-title": "Login Gagal",
+        "login-error-message": "Pastikan memasukan akun dengan benar."
+    }
+}
